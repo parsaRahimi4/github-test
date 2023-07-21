@@ -8,7 +8,7 @@ async function getPopularRepos() {
     {
       // cache: "no-store",
       headers: {
-        Authorization: "token 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",
+        Authorization: "token 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",
       },
     }
   );
