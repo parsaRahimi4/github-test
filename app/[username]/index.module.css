@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 80px 80px;
+}
+.leftPart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+.leftPart img {
+  border-radius: 50%;
+}
+.leftPart h1 {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 24px;
+  color: black;
+  margin: 20px 0;
+  line-height: 1.25;
+}
+.location {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: black;
+  line-height: 1.25;
+}
+.locationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+.repoNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.patterText {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: rgb(35, 78, 0);
+  line-height: 1.25;
+}
+.number {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 25px;
+  color: rgb(78, 0, 0);
+  line-height: 1.25;
+}
+.rightPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.emptyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+  border: 1px solid rgba(184, 6, 6, 0.473);
+  border-radius: 6px;
+}
+.error {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 35px;
+  color: red;
+  line-height: 1.25;
+}

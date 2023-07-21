@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  width: 100%;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  padding: 0px 80px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 9999999;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 25px;
+}
+.link {
+  padding: 16px 12px;
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  transition: color 0.2s ease;
+  outline: none;
+  cursor: pointer;
+}
+#active {
+  border-bottom: 2px solid black;
+}

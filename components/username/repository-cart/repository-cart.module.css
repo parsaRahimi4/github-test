@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 45%;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #d0d7de;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  transition: box-shadow 0.35s ease-in-out;
+  cursor: pointer;
+}
+.container:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.topPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.topPart p {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 18px;
+  color: rgb(37, 88, 255);
+  line-height: 1.25;
+}
+.topPart span {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: black;
+  line-height: 1.25;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.bottomPart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+}
+.language {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: black;
+  line-height: 1.25;
+  margin-right: 10px;
+}
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 10px;
+}
+.star p {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: black;
+  line-height: 1.25;
+  margin-right: 10px;
+}
+.fork {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.fork p {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: black;
+  line-height: 1.25;
+  margin-right: 10px;
+}
+.dateContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.dateContainer span{
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: black;
+  line-height: 1.25;
+  margin-right: 10px;
+}
+.dateContainer p{
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: black;
+  line-height: 1.25;
+  margin-right: 10px;
+}
