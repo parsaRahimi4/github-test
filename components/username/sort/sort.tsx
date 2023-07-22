@@ -14,6 +14,7 @@ function Sort({ setSort }: TypeRepositoryCart) {
     { id: 3, title: "last update", slug: "updated_at" },
     { id: 4, title: "clear filter", slug: "clear" },
   ];
+  console.log("test")
   return (
     <>
       <div
