@@ -7,7 +7,7 @@ async function getInformation(username: string) {
   const res = await fetch(`https://api.github.com/users/${username}`, {
     // cache: "no-store",
     headers: {
-      Authorization: "token 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",
+      Authorization: "token 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",
     },
   });
   return res.json();
@@ -17,7 +17,7 @@ async function getUserRepos(username: string) {
   const res = await fetch(`https://api.github.com/users/${username}/repos`, {
     // cache: "no-store",
     headers: {
-      Authorization: "token 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",
+      Authorization: "token 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",
     },
   });
   return res.json();
