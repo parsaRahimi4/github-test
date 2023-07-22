@@ -7,9 +7,9 @@ async function getPopularRepos() {
     `https://api.github.com/search/repositories?q=stars:%3E1&sort=stars&per_page=10`,
     {
       // cache: "no-store",
-      headers: {
-        Authorization: "token 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",
-      },
+      // headers: {
+      //   Authorization: "token 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",
+      // },
     }
   );
   return res.json();

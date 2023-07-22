@@ -6,9 +6,9 @@ import RepositoryList from "@/components/username/repository-list/repository-lis
 async function getInformation(username: string) {
   const res = await fetch(`https://api.github.com/users/${username}`, {
     // cache: "no-store",
-    headers: {
-      Authorization: "token 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",
-    },
+    // headers: {
+    //   Authorization: "token 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",
+    // },
   });
   return res.json();
 }
@@ -16,9 +16,9 @@ async function getInformation(username: string) {
 async function getUserRepos(username: string) {
   const res = await fetch(`https://api.github.com/users/${username}/repos`, {
     // cache: "no-store",
-    headers: {
-      Authorization: "token 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",
-    },
+    // headers: {
+    //   Authorization: "token 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",
+    // },
   });
   return res.json();
 }
