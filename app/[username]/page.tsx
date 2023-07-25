@@ -6,9 +6,9 @@ import SearchUser from "@/components/common/search-user/search-user";
 
 async function getInformation(username: string) {
   const res = await fetch(`https://api.github.com/users/${username}`, {
-    headers: {
-      Authorization: "token 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",
-    },
+    // headers: {
+    //   Authorization: "token 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",
+    // },
     // cache: "no-store",
     // headers: {
     //   Authorization: "token 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",
@@ -19,9 +19,9 @@ async function getInformation(username: string) {
 
 async function getUserRepos(username: string) {
   const res = await fetch(`https://api.github.com/users/${username}/repos`, {
-    headers: {
-      Authorization: "token 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",
-    },
+    // headers: {
+    //   Authorization: "token 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",
+    // },
     // cache: "no-store",
     // headers: {
     //   Authorization: "token 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",
