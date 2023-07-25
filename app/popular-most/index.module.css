@@ -4,14 +4,15 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  padding: 40px 0;
+  padding: 40px 80px;
 }
-.container h1{
-  margin: 20px 0;
+.container h1 {
+  margin: 30px 0;
   font-family: "Raleway";
   font-size: 40px;
   color: rgb(92, 173, 0);
   line-height: 1.25;
+  text-align: center;
 }
 .emptyContainer {
   display: flex;
@@ -44,4 +45,12 @@
   flex-wrap: wrap;
   width: 100%;
   margin-top: 25px;
+}
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding: 40px;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
 }

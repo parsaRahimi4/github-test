@@ -131,7 +131,7 @@ img {
     transform: translateX(-50%) translateZ(0) scaleY(1);
   }
 }
-.waveWrapper {
+/* .waveWrapper {
   overflow: hidden;
   position: absolute;
   left: 0;
@@ -139,7 +139,7 @@ img {
   bottom: 0;
   top: 80px;
   margin: auto;
-}
+} */
 .waveWrapperInner {
   position: absolute;
   width: 100%;

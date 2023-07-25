@@ -16,7 +16,7 @@ function RepositoryCart({ data }: TypeRepositoryCart) {
         <span>{data?.visibility}</span>
       </div>
       <div className={style.bottomPart}>
-        <p className={style.language}>{data?.language}</p>
+        {/* <p className={style.language}>{data?.language}</p> */}
         <div className={style.star}>
           <Image
             alt="location"

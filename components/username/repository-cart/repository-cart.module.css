@@ -43,6 +43,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
 }
@@ -60,6 +61,7 @@
   justify-content: center;
   flex-direction: row;
   margin-right: 10px;
+  margin-top: 10px;
 }
 .star p {
   margin: 0;
@@ -74,6 +76,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin-top: 10px;
 }
 .fork p {
   margin: 0;
@@ -89,8 +92,9 @@
   justify-content: center;
   flex-direction: row;
   margin-left: 10px;
+  margin-top: 10px;
 }
-.dateContainer span{
+.dateContainer span {
   margin: 0;
   font-family: "Raleway";
   font-size: 14px;
@@ -98,11 +102,16 @@
   line-height: 1.25;
   margin-right: 10px;
 }
-.dateContainer p{
+.dateContainer p {
   margin: 0;
   font-family: "Raleway";
   font-size: 14px;
   color: black;
   line-height: 1.25;
   margin-right: 10px;
+}
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
 }

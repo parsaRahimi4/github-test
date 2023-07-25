@@ -76,7 +76,13 @@ function RepositoryList({ repos }: TypeRepositoryList) {
           ) : (
             <Sort setSort={setSort} />
           )}
-          <div className={style.cartsContainer}>
+          <div
+            className={
+              pathname == "/popular-most"
+                ? style.cartsContainerPopular
+                : style.cartsContainer
+            }
+          >
             {searchLoading == true ? (
               <div id={style.loader}></div>
             ) : (

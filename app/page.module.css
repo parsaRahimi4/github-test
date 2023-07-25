@@ -13,6 +13,7 @@
   color: rgb(155, 23, 243);
   line-height: 1.25;
   margin-bottom: 30px;
+  text-align: center;
 }
 .main p {
   margin: 0;
@@ -22,4 +23,16 @@
   line-height: 1.75;
   max-width: 650px;
   text-align: center;
+}
+@media only screen and (max-width: 798px) {
+  .main {
+    min-height: 100vh;
+    padding: 60px 40px;
+  }
+  .main h1 {
+    font-size: 30px;
+  }
+  .main p {
+    font-size: 20px;
+  }
 }

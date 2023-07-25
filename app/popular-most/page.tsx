@@ -10,6 +10,10 @@ async function getPopularRepos() {
       // headers: {
       //   Authorization: "token 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",
       // },
+      // cache: "no-store",
+      headers: {
+        Authorization: "token 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",
+      },
     }
   );
   return res.json();
